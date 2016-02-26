@@ -67,12 +67,22 @@ Start=16
 Len=3
 ZeroFill=Yes
 
+[ValueSet]
+Label=Numéro de ZD|Enumeration area No.
+Name=ID07_VS1
+Value=1:999;Valeurs valides
+
 [Item]
 Label=Numéro de la structure|Structure No.
 Name=ID08
 Start=19
 Len=3
 ZeroFill=Yes
+
+[ValueSet]
+Label=Numéro de la structure|Structure No.
+Name=ID08_VS1
+Value=1:999;Valeurs valides
 
 [Item]
 Label=Type de ménage|Type of household
@@ -101,6 +111,11 @@ Name=ID10
 Start=24
 Len=2
 ZeroFill=Yes
+
+[ValueSet]
+Label=Numero du ménage dans la structure|Number of household in the structure
+Name=ID10_VS1
+Value=1:99;Valeurs valides
 
 [Record]
 Label=MENAGE|HOUSEHOLD
@@ -148,12 +163,22 @@ Start=102
 Len=2
 ZeroFill=Yes
 
+[ValueSet]
+Label=Total résidants|Total No. of  Residents
+Name=TOTAL_RESIDANTS_VS1
+Value=0:99;Valeurs valides
+
 [Item]
 Label=Total Visiteurs|Total Visitors
 Name=TOTAL_VISITEURS
 Start=104
 Len=2
 ZeroFill=Yes
+
+[ValueSet]
+Label=Total Visiteurs|Total No. of  Residents
+Name=TOTAL_VISITEURS_VS1
+Value=0:99;Valeurs valides
 
 [Item]
 Label=Total individus|Total persons
@@ -162,11 +187,21 @@ Start=106
 Len=2
 ZeroFill=Yes
 
+[ValueSet]
+Label=Total individus|Total No. of  Residents
+Name=TOTAL_INDIVIDUS_VS1
+Value=0:99;Valeurs valides
+
 [Item]
 Label=Incrémentation|Incrementation
 Name=INCREMENTATION
 Start=108
 Len=1
+
+[ValueSet]
+Label=Incrémentation|Incrementation
+Name=INCREMENTATION_VS1
+Value=0:9;Valeurs valides
 
 [Item]
 Label=Compteur individus|Compteur individus
@@ -174,6 +209,11 @@ Name=COMPTEUR_INDIVIDUS
 Start=109
 Len=2
 ZeroFill=Yes
+
+[ValueSet]
+Label=Compteur individus|Total No. of  Residents
+Name=COMPTEUR_INDIVIDUS_VS1
+Value=0:99;Valeurs valides
 
 [Item]
 Label=Victimisation
@@ -204,11 +244,21 @@ Name=V66_A
 Start=122
 Len=1
 
+[ValueSet]
+Label=Nombre homicide|Incrementation
+Name=V66_A_VS1
+Value=0:9;Valeurs valides
+
 [Item]
 Label=Nombre tentative de meutre|Number of attempted murder
 Name=V66_B
 Start=123
 Len=1
+
+[ValueSet]
+Label=Nombre tentative de meutre|Incrementation
+Name=V66_B_VS1
+Value=0:9;Valeurs valides
 
 [Item]
 Label=Nombre vol à main armée|Number of armed robbery
@@ -216,11 +266,21 @@ Name=V66_C
 Start=124
 Len=1
 
+[ValueSet]
+Label=Nombre vol à main armée|Incrementation
+Name=V66_C_VS1
+Value=0:9;Valeurs valides
+
 [Item]
 Label=Nombre enlèvement|Number of kidnapping
 Name=V66_D
 Start=125
 Len=1
+
+[ValueSet]
+Label=Nombre enlèvement|Incrementation
+Name=V66_D_VS1
+Value=0:9;Valeurs valides
 
 [Item]
 Label=Nombre agression sexuelle|Number of sexual assault
@@ -228,11 +288,21 @@ Name=V66_E
 Start=126
 Len=1
 
+[ValueSet]
+Label=Nombre agression sexuelle|Incrementation
+Name=V66_E_VS1
+Value=0:9;Valeurs valides
+
 [Item]
 Label=Nombre violence sexuelle|Number of sexual violence
 Name=V66_F
 Start=127
 Len=1
+
+[ValueSet]
+Label=Nombre violence sexuelle|Incrementation
+Name=V66_F_VS1
+Value=0:9;Valeurs valides
 
 [Item]
 Label=Nombre violence grave|Number of serious case of violence
@@ -240,11 +310,21 @@ Name=V66_G
 Start=128
 Len=1
 
+[ValueSet]
+Label=Nombre violence grave|Incrementation
+Name=V66_G_VS1
+Value=0:9;Valeurs valides
+
 [Item]
 Label=Nombre voies de faits simples|Number of simple case of assault
 Name=V66_H
 Start=129
 Len=1
+
+[ValueSet]
+Label=Nombre voies de faits simples|Incrementation
+Name=V66_H_VS1
+Value=0:9;Valeurs valides
 
 [Item]
 Label=Nombre escroquerie|Number of swindling
@@ -252,11 +332,21 @@ Name=V66_I
 Start=130
 Len=1
 
+[ValueSet]
+Label=Nombre escroquerie|Incrementation
+Name=V66_I_VS1
+Value=0:9;Valeurs valides
+
 [Item]
 Label=Nombre incendie criminel|Number of arson
 Name=V66_J
 Start=131
 Len=1
+
+[ValueSet]
+Label=Nombre incendie criminel|Incrementation
+Name=V66_J_VS1
+Value=0:9;Valeurs valides
 
 [Item]
 Label=Nombre dégâts|Number of damages
@@ -264,12 +354,22 @@ Name=V66_K
 Start=132
 Len=1
 
+[ValueSet]
+Label=Nombre dégâts|Incrementation
+Name=V66_K_VS1
+Value=0:9;Valeurs valides
+
 [Item]
 Label=Nombre de crimes enregistrés|Number of registred crimes
 Name=V66_L
 Start=133
 Len=2
 ZeroFill=Yes
+
+[ValueSet]
+Label=Nombre de crimes enregistrés|Incrementation
+Name=V66_L_VS1
+Value=0:9;Valeurs valides
 
 [Item]
 Label=Type de structure|Type of structure
@@ -431,6 +531,11 @@ Name=H74
 Start=293
 Len=2
 ZeroFill=Yes
+
+[ValueSet]
+Label=Nombre de chambres à coucher|Incrementation
+Name=H74_VS1
+Value=0:99;Valeurs valides
 
 [Item]
 Label=Statut d'occupation du logement|Occupation statut in the dwelling
@@ -795,6 +900,11 @@ Name=P05
 Start=89
 Len=2
 ZeroFill=Yes
+
+[ValueSet]
+Label=Age
+Name=P05_VS1
+Value=0:99;Valide|Valid
 
 [Item]
 Label=Lieu de naissance|Place of birth
@@ -3602,389 +3712,218 @@ Len=4
 ZeroFill=Yes
 
 [ValueSet]
-Label=Planteurs /cultivateurs et ouvriers des cultures|Farmers and workers in the farming sector
-Name=P27_VS_11
-Value=1101;Exploitants agricoles|Farmers
-Value=1102;Ouvriers agricoles|Farm workers
-
-[ValueSet]
-Label=Eleveurs et ouvriers de l’élevage (sauf aquaculteurs)|Breeders and workers in the animal husbandary sector (except fish farmers)
-Name=P27_VS_12
-Value=1201;Eleveurs de bovins|Cattle breeder
-Value=1202;Eleveurs de caprins et ovins|Goat and sheep breeders
-Value=1203;Eleveurs de porcins|Pig breeders
-Value=1204;Eleveurs de volailles et des oiseaux|Poultry and bird breeders
-Value=1205;Autres éleveurs (apiculteurs, aviculteurs, aulacodiculteurs, etc.)|Other breeders (beekeepers, poultry farmers, hedgehog breeders, etc.)
-Value=1206;Bergers et autres ouvriers de l’élevage|Shepherds and other animal breeders
-
-[ValueSet]
-Label=Pêcheurs et ouvriers de la pêche|Fishermen and other workers in the fishing sector
-Name=P27_VS_13
-Value=1301;Pécheurs de la pêche artisanale|Artisanal fishermen
-Value=1302;Pécheurs de la pêche industrielle|Large-scale Fishermen
-Value=1303;Aquaculteurs|Fish breeders
-Value=1304;Ouvriers de la pêche et de l’aquaculture|Workers of the fishing sector
-
-[ValueSet]
-Label=Professions de forestage (bucherons, abatteurs, scieurs, sylviculteurs)|Forestry professions (woodcutters, fellers, sawyers, foresters)
-Name=P27_VS_14
-Value=1401;Exploitants forestiers|Forestry developer
-Value=1402;Exploitant des produits forestiers non ligneux, les cueilleurs et assimilés|Farmers (non-woody forest products, gatherers and similar workers)
-
-[ValueSet]
-Label=Professions fauniques|Fauna-related professions
-Name=P27_VS_15
-Value=1501;Chasseurs/collecteurs et assimilés (non compris cueilleurs de vin)|Hunters/harvesters and  similar occupations (excluding  wine tappers)
-Value=1502;guides de chasses, pisteurs,…|Hunting guides,
-Value=1503;Taxidermiste ou empailleur|Taxidermist
-Value=1504;Autres professions fauniques non comprises ailleurs (Captureurs)|Other fauna  professions not mentioned elsewhere  (hunters)
-
-[ValueSet]
-Label=Membres de l'Exécutif, des corps législatifs, Directeurs Généraux et Cadres Supérieurs de l'Administration Publique|Executive members, members of legislative corps, directors-general and senior officials of public administrative services
-Name=P27_VS_21
-Value=2101;Membres de l'Exécutif|Members of the Executive body
-Value=2102;Membres des Corps Législatifs (Parlement : Sénat, Assemblée Nationale)|Members of the legislative corps (Parliament : Senate, National Assembly)
-Value=2103;Directeurs Généraux et Cadres Supérieurs de l'Administration Publique (y compris ceux des EPA)|Directors-General and senior staff of Public administration (including entirely State-funded corporations)
-Value=2104;Chefs traditionnels|Traditionnal Heads
-
-[ValueSet]
-Label=Dirigeants et cadres supérieurs des organisations spécialisées|Leaders and senior officials of specialized organizations
-Name=P27_VS_22
-Value=2201;Dirigeants et cadres supérieurs  de parti politique|Leaders and senior officials of political parties
-Value=2202;Dirigeants et cadres supérieurs d’organisation professionnelle de travailleurs|Leaders and senior officials of professional organizations of workers
-Value=2203;Dirigeants et cadres supérieurs d’organisation professionnelle des employeurs|Leaders and senior officials of professional organizations of employers
-Value=2204;Dirigeants et cadres supérieurs d'organisation humanitaire, d’ONG et d'associations|Leaders and senior officials of humanitarian organizations, NGOs and associations
-Value=2205;Dirigeants et cadres supérieurs d'organismes spécialisés non classés ailleurs|Leaders and senior officials of specialized bodies not mentioned elswhere
-
-[ValueSet]
-Label=Directeurs et Cadres de Direction des Grandes Entreprises|Directors and management staff of large-scale enterprises
-Name=P27_VS_23
-Value=2301;Présidents Directeurs Généraux, Directeurs Généraux, Directeurs et Cadres de Direction des Affaires Générales (Administratives, Financières ; Ressources  Humaines)|Chief Executive Officer , Directors-General, Directors and senior staff of General Affairs (Administrative, Financial and Human resources )
-Value=2302;Directeurs et Cadres de Direction des services de vente, commercialisation et développement|Directors and executives of sales, trade and development services
-Value=2303;Directeurs et Cadres de Direction, Agriculture, Pisciculture|Directors and executives of  agriculture, fish farming
-Value=2304;Directeurs et Cadres de Direction, Industrie Manufacturière, Mines et Distribution|Directors and executives of manufacturing industry, mines and distribution
-Value=2305;Directeurs et Cadres de Direction des services spécialisés non compris ailleurs|Directors and executives of specialized services not mentioned elsewhere
-
-[ValueSet]
-Label=Dirigeants et Gérants des petites entreprises|Leaders and managers of small-scale enterprises
-Name=P27_VS_24
-Value=2401;Dirigeants et Gérants des petites entreprises dans l'agriculture, la chasse et la pêche|Leaders and managers of small-scale enterprises (agriculture, hunting and fisheries)
-Value=2402;Dirigeants et Gérants des petites entreprises dans les industries manufacturières|Leaders and managers of small-scale enterprises (manufacturing industries)
-Value=2403;Dirigeants et Gérants des petites entreprises dans les travaux publics|Leaders and managers of small-scale enterprises (public works)
-Value=2404;Dirigeants et Gérants des petites entreprises dans le commerce de gros et de détail|Leaders and managers of small-scale enterprises (wholesale and retail trade)
-Value=2405;Dirigeants et Gérants des petites entreprises dans la restauration et l'hôtellerie|Leaders and managers of small-scale enterprises (catering and hotel business)
-Value=2406;Dirigeants et Gérants des petites entreprises dans les transports, l'entreposage et les communications|Leaders and managers of small-scale enterprises (transport, warehousing and communications)
-Value=2407;Dirigeants et Gérants des petites entreprises d'intermédiation et de services aux entreprises|Leaders and managers of small-scale enterprises (intermediation and services meant for enterprises)
-Value=2408;Dirigeants et Gérants des petites entreprises de services de soins personnels, de nettoyage et de services similaires|Leaders and managers of small-enterprises (services for personal health care, cleaning and similar services
-Value=2409;Dirigeants et Gérants des Petites Entreprises non compris ailleurs|Leaders and managers of small-scale enterprises not mentioned elsewhere
-
-[ValueSet]
-Label=Spécialiste des sciences et techniques|Specialist in scientific and technical domains
-Name=P27_VS_31
-Value=3101;Physiciens, chimistes et assimilés (sauf ingénieur de l’électrotechnique cf. 3104)|Physicists, chemists and similar occupations (excluding electrical engineer/see 3104)
-Value=3102;Mathématiciens, actuaires, statisticiens et démographes|Mathematicians, actuaries, statisticians and demographers
-Value=3103;Spécialistes des sciences de la vie,  de la terre et assimilés (sauf spécialistes de la santé)|Life and earth science specialists as well as similar occupations (excluding health specialists)
-Value=3104;Ingénieurs de l'électrotechnique et des télécommunications|Electrical and telecommunications engineers
-Value=3105;Architectes, urbanistes, géomètres, ingénieur de Génie civil et assimilés|Architects, town planners, surveyors, civil engineers  and similar occupations
-Value=3106;Autres personnels spécialistes des sciences et techniques|Other staff in scientific and technical fields
-
-[ValueSet]
-Label=Spécialistes de la santé|Health specialists
-Name=P27_VS_32
-Value=3201;Médecins et assimilés|Medical doctors and similar occupations
-Value=3202;Cadres infirmiers et sages-femmes|Senior nurses and midwives
-Value=3203;Ingénieurs et techniciens médicaux-sanitaires|Medical/health engineers and technicians
-Value=3204;Spécialistes des médecines traditionnelles et des médecines complémentaires|Specialists of traditional and complementary medicine
-Value=3205;Praticiens paramédicaux|Paramedical Practitioners
-Value=3206;Vétérinaires|Veterinarian
-Value=3207;Autres spécialistes des professions de la santé|Other health specialists
-
-[ValueSet]
-Label=Spécialistes de l'enseignement|Teaching specialists
-Name=P27_VS_33
-Value=3301;Professeurs d'université et d'établissements d'enseignement supérieur|Lecturers (universities and higher institutions)
-Value=3302;Professeurs, enseignement secondaire technique et professionnel|Teachers (professional and technical secondary education)
-Value=3303;Professeurs, enseignement secondaire général et normal|Teachers (grammar education and teacher training at the secondary level)
-Value=3304;Autres spécialistes de l'enseignement|Other education specialists
-
-[ValueSet]
-Label=Spécialistes en administration et management d'entreprise|Specialist in administration and enterprise management
-Name=P27_VS_34
-Value=3401;Spécialistes en finances|Financial specialists
-Value=3402;Spécialistes des fonctions administratives|Specialists in administrative duties
-Value=3403;Spécialistes des ventes, de la commercialisation et des relations publiques|Specialists in sales, marketing and public relations
-Value=3404;Spécialistes en gestion des projets|Specialists (project management)
-Value=3405;Autres spécialistes en administration des entreprises|Other specialists in enterprise management
-
-[ValueSet]
-Label=Spécialistes des technologies de l’information et des communications (sauf télécommunications)|Specialists in Information and communication technologies (except telecommunications)
-Name=P27_VS_35
-Value=3501;Concepteurs et Analystes de logiciels et de multimédia|Designers and Analysts (software and multimedia)
-Value=3502;Spécialistes des bases de données et des réseaux d'ordinateurs|Specialists (databases and computer networks)
-Value=3503;Autres spécialistes des technologies de l’information et des communications|Other specialists in Information and Communication Technologies
-
-[ValueSet]
-Label=Spécialistes de la justice, des sciences sociales et de la culture|Specialists in justice, social sciences and culture
-Name=P27_VS_36
-Value=3601;Juristes|Lawyers
-Value=3602;Archivistes, bibliothécaires, documentalistes et assimilés|Archivist, librarian, researcher and similar occupations
-Value=3603;Spécialistes des sciences sociales et du clergé|Specialists (social sciences and issues concerning the clergy)
-Value=3604;Auteurs, journalistes et linguistes|Authors, journalists and linguists
-Value=3605;Artistes créateurs et exécutants|Creative artists and performers
-
-[ValueSet]
-Label=Spécialistes de l’animation et de l’orientation scolaire, universitaire et professionnelle|Specialists (management of activities as well as secondary, higher and vocational guidance)
-Name=P27_VS_37
-Value=3701;Conseillers d’orientation|Career adviser
-Value=3702;Conseillers et animateurs de la jeunesse|Youth adviser and leader
-
-[ValueSet]
-Label=Spécialistes de la logistique et de la messagerie|Logistics and messaging specialist
-Name=P27_VS_38
-Value=3801;Logisticien|Logistician
-Value=3802;Spécialistes des services postaux|Specialist in postal services
-
-[ValueSet]
-Label=Professions intermédiaires des sciences et techniques|Intermediate professions in the scientific and technical domain
-Name=P27_VS_41
-Value=4101;Professions intermédiaires des sciences physiques et techniques|Intermediate professions (physical and technical sciences)
-Value=4102;Contremaitres, mines, industries manufacturières et bâtiment|Foremen, mines, manufacturing and building industries
-Value=4103;Conducteurs, techniciens et contrôleurs de processus industriels|Operators, technicians and controllers of industrial processes
-Value=4104;Techniciens et travailleurs assimilés des sciences de la vie, de la terre et assimilés|Technicians in life and earth sciences, and similar workers
-Value=4105;Contrôleurs et techniciens des moyens de transport maritime et aérien|Controllers and technicians (sea and air transport means)
-Value=4106;Contrôleurs et techniciens des moyens de transport terrestre|Land transport controllers and technicians
-
-[ValueSet]
-Label=Professions intermédiaires de la santé et de l’enseignement|Intermediate professions in the health and teaching domains
-Name=P27_VS_42
-Value=4201;Techniciens de la médecine et de la pharmacie|Pharmacy and medical technicians
-Value=4202;Personnel infirmier, aide-soignant et sages-femmes|Nurse, nursing assistant and mid-wives
-Value=4203;Praticiens des médecines traditionnelles et des médecines complémentaires|Traditional doctors and specialists in complementary medicine
-Value=4204;Techniciens et assistants vétérinaires|Veterinery technicians and assistants
-Value=4205;Autres professions intermédiaires de la santé|Other intermediate health professions
-Value=4206;Professions intermédiaires de l'enseignement primaire et pré-primaire|Intermediate professions (primary and pre-primary education)
-Value=4207;Autres personnels d'enseignement, personnels d'éducation|Other education staff
-Value=4208;Formation continue|Continuous training
-Value=4209;Education sportive, sport professionnel|Sports education, professional sports
-Value=4210;Documentation, patrimoine|Documentation, patrimony
-
-[ValueSet]
-Label=Professions intermédiaires finances et administration|Intermediate professions in finance and administration
-Name=P27_VS_43
-Value=4301;Professions intermédiaires de la finance et des mathématiques|Intermediate professions (finance and mathematics)
-Value=4302;Agents de vente et d'achat, courtiers|Sales and purchase agents, broker
-Value=4303;Agents de services commerciaux|Commercial service agents
-Value=4304;Secrétaires d'administration et secrétaires spécialisés|Administrative secretaries and specialized secretaries
-Value=4305;Professions intermédiaires de l'application de la loi et assimilées|Intermediate professions for the implementation of the law / similar occupations
-
-[ValueSet]
-Label=Professions intermédiaires des services juridiques, des services sociaux et assimilés|Intermediate professions (legal services, social services and similar occupations)
-Name=P27_VS_44
-Value=4401;Professions intermédiaires des services juridiques, des services sociaux et des religions|Intermediate professions (legal services,  social services and religions)
-Value=4402;Travailleurs du secteur des sports et des activités de remise en forme|Workers in the domain of sports and fitness activities
-Value=4403;Professions intermédiaires de la culture, de la création artistique et des activités culinaires|Intermediate professions (culture, artistic creation and culinary activities)
-
-[ValueSet]
-Label=Techniciens de l’information et des communications|Information and communication technicians
-Name=P27_VS_45
-Value=4501;Techniciens, opérations et soutien aux utilisateurs des technologies de l'information et des communications|Technicians (operations and assistance to users of information and communications technology)
-Value=4502;Techniciens des télécommunications et de la radio diffusion|Telecommunications and  radio broadcasting technicians
-
-[ValueSet]
-Label=Autres personnels opérationnels de la douane et des eaux et forêts|Other operational staff (customs, water and forestry)
-Name=P27_VS_46
-Value=4601;Personnel de rang de la douane|Rank and file of the customs department
-Value=4602;Personnel de rang des eaux et forêts|Rank and file of the water and forestry department
-
-[ValueSet]
-Label=Employés de bureau|Office employees
-Name=P27_VS_51
-Value=5101;Employés de bureau, fonctions générales|Office employees, (general duties)
-Value=5102;Secrétaires (fonctions générales)|Secretaries (general duties)
-Value=5103;Opérateurs sur clavier|Keyboard workers
-
-[ValueSet]
-Label=Employés de réception, guichetiers et assimilés|Reception employees, counter clerks and similar workers
-Name=P27_VS_52
-Value=5201;Guichetiers, encaisseurs et assimilés|Counter clerks, collectors and similar workers
-Value=5202;Employés chargés d'informer la clientèle/usagers|Employee in charge of informing customers/users
-
-[ValueSet]
-Label=Employés des services comptables et d'approvisionnement|Employees (accounting and supply services)
-Name=P27_VS_53
-Value=5301;Employés des services comptables et financiers|Employees of accounting and financial services
-Value=5302;Employés d'approvisionnement et de classification spatio-temporelle|Employees (supplies and  spatio-temporal classification)
-Value=5303;Employés du service de transports|Employees of transport service
-Value=5304;Manœuvres des transports et de l’entreposage|Labourers (transport and warehousing sectors)
-
-[ValueSet]
-Label=Autres employés de type administratif|Other administrative employees
-Name=P27_VS_54
-Value=5401;Autres employés de type administratif|Other administrative employees
-
-[ValueSet]
-Label=Personnels des services directs aux particuliers|Staff (direct services to individuals)
-Name=P27_VS_61
-Value=6101;Agents d'accompagnement et assimilés|Guides and similar workers
-Value=6102;Cuisiniers, aides de cuisine et assimilés|Cooks, kitchen assistants and similar workers
-Value=6103;Serveurs et barmen|Waiters and barmen
-Value=6104;Coiffeurs, esthéticiens et assimilés|Hairdressers, beuticians and similar workers
-Value=6105;Gouvernantes et concierges|Gouvernesses and caretakers
-Value=6106;Gardes d'enfants et aides-enseignants|Children's keepers and assistant teachers
-Value=6107;Aides-personnes âgées|Keepers of the elderly
-Value=6108;Aides de ménage et agents d'entretien|House helps and maintenance agents
-Value=6109;Laveurs de véhicules et de vitres, laveurs de linge et autres nettoyeurs manues|Car and window cleaners, linen cleaners and other manual cleaners
-Value=6110;Autres personnels des services directs aux particuliers|Other staff (direct services to individuals)
-
-[ValueSet]
-Label=Commerçants et vendeurs|Traders and salesmen
-Name=P27_VS_62
-Value=6201;Vendeurs sur les marchés et vendeurs ambulants de comestibles|Salesmen in markets and food hawkers
-Value=6202;Commerçants,  vendeurs en magasin|Traders, salesmen in warehouses
-Value=6203;Commerçants sur Call box des produits de téléphonie|Callbox operators (dealer in telephone products)
-Value=6204;Autres vendeurs et autres professions auxiliaires à la vente|Other salesmen and other similar workers
-
-[ValueSet]
-Label=Personnels civils de protection et de sécurité privée|Civil personnel in the domain of protection and private security
-Name=P27_VS_63
-Value=6301;Vigiles et agents de sécurité privée|Watchmen and private security agents
-Value=6302;Autres personnels civils de protection et de sécurité privée|Other civil personnel (protection and of private security)
-
-[ValueSet]
-Label=Conducteurs de machines et d'installations fixes|Operators of machines and immobile equipment
-Name=P27_VS_64
-Value=6401;Conducteurs d'installations d'exploitation minière et d'extraction des minéraux|Operators of mining and mineral-extraction equipment
-Value=6402;Conducteurs d'installations de transformation et de traitement superficiel des métaux|Operators of processing machines and of those of the superficial treatment of metals
-Value=6403;Conducteurs d'installations et de machines pour la fabrication des produits chimiques et photographiques|Operators of equipment and machines for manufacturing chemical and photographic products
-Value=6404;Conducteurs de machines pour la fabrication de produits en caoutchouc, en matières plastiques et en papeterie|Operators of machines for manufacturing rubber, plastic and paper products
-Value=6405;Conducteurs de machines pour la fabrication de produits textiles et d'articles en fourrure et en cuir|Operators of machines for manufacturing textile products, articles in fur and in leather
-Value=6406;Conducteurs de machines pour la fabrication de denrées alimentaires et de produits connexes|Operators of machines for packging foodstuffs and similar products
-Value=6407;Conducteurs d'installations pour la fabrication du papier et pour le travail du bois|Operators of equipment for manufacturing paper and for woodwork
-Value=6408;Autres conducteurs de machines et d'installations fixes|Other operators of machines and immobile equipment
-
-[ValueSet]
-Label=Ouvriers de l'assemblage|Workers in assembly plants
-Name=P27_VS_65
-Value=6501;Ouvriers de l'assemblage|Workers in assembly plants
-
-[ValueSet]
-Label=Conducteurs de véhicules et d'engins lourds de levage et de manœuvre|Drivers of  heavy-duty vehicles and other vehicles as well as operators of machines for lifting and manoeuvering
-Name=P27_VS_66
-Value=6601;Conducteurs de locomotives et assimilés|Operators of engines and similar workers
-Value=6602;Conducteurs de motocycles|Motorcycle riders
-Value=6603;Chauffeurs de taxi et conducteurs d'automobiles et de camionnettes|Drivers of taxis, cars and  vans
-Value=6604;Conducteurs d'autobus et de tramways|Bus and tramway drivers
-Value=6605;Conducteurs de poids lourds et de camions|Drivers of heavy-duty vehicles and lorries
-Value=6606;Conducteurs de matériels et engins mobiles|Drivers of mobile equipment
-Value=6607;Matelots de pont et assimilés|Seamen (nautical activities) and similar workers
-
-[ValueSet]
-Label=Métiers de l’artisanat|Handicraft professions
-Name=P27_VS_71
-Value=7101;Artisans et ouvriers du textile|Textile craftsmen and workers
-Value=7102;Artisans et ouvriers du bois|Woodwork craftsmen and workers
-Value=7103;Artisans et ouvriers de la vannerie|Basketwork craftsmen and workers
-Value=7104;Artisans et ouvrier du plastique|Plastics craftsmen and workers
-Value=7105;Artisans et ouvriers de la céramique et poterie|Ceramics and pottery craftsmen ad workers
-Value=7106;Artisans et ouvriers du cuir (cordonnier, maroquinier, réparateur de chaussure/sac)|Leather craftsmen and workers (shoemender, dealer in leather goods,  shoe/bag repairer)
-Value=7107;Artisans et ouvriers de l’alimentation, des boissons et du tabac (y.c. cueilleurs de vin, producteur de foléré)|Workers in the food, drinks and tobacco domain (including  wine tapper, foléré producer)
-Value=7108;Métiers de creusage (creuseurs de puits, fosses…)|Digging trade (well, pit digger, …)
-
-[ValueSet]
-Label=Métiers du bâtiment et assimilés|Building professions and similar professions
-Name=P27_VS_72
-Value=7201;Maçons|Bricklayers
-Value=7202;Charpentiers|Carpenters
-Value=7203;Tôliers (poseurs de tôles et de tuiles)|Sheet-iron workers (sheet-metal and tile layers)
-Value=7204;Peintres en bâtiment|Building painters
-Value=7205;Ferrailleurs|Scrap merchant
-Value=7206;Marbrier/Carriers|Monumental masons/Quarrymen
-Value=7207;Vitrier|Glazier
-Value=7208;Carreleur|Tiler
-Value=7209;Fendeurs de pierre/ Tailleurs de pierre|Stone-splitter/stone-cutter
-Value=7210;Plombiers en bâtiment|Building plumbers
-Value=7211;Staffeurs/Plâtrier|Staff plasterer/plasterer
-Value=7212;Métiers du bâtiment et assimilés non classés ailleurs|Building professions and similar professions unclassified elsewhere
-
-[ValueSet]
-Label=Métiers de la métallurgie et de la construction mécanique|Metallurgical profesions and mechanical construction professions
-Name=P27_VS_73
-Value=7301;Soudeur/cuviste|Welder/vat worker
-Value=7302;Mouleur fondeur|Caster
-Value=7303;Tôlier – Chaudronnier|Panel beater – Boiler maker
-Value=7304;Monteur de charpentes métalliques|Fitter (metallic framework)
-Value=7305;Forgerons /outilleurs|Blacksmiths /tool-makers
-Value=7306;Mécaniciens/ réparateurs des machines et d’engins|Mechanics/ repairers of machines and engines
-
-[ValueSet]
-Label=Métiers de l’imprimerie et de l’édition|Printing and publishing professions
-Name=P27_VS_74
-Value=7401;Relieurs|Book binders
-Value=7402;Compositeurs typographes (Monteurs)|Typesetters  (Fitters)
-Value=7403;Stéréotypeurs|Stéréotypeurs (Stereotyper)
-Value=7404;Imprimeurs|Printers
-Value=7405;Graveurs|Engravers
-Value=7406;Sérigraphes|Silk-screen printers
-
-[ValueSet]
-Label=Métiers de l’électricité, de la mécanique et de l’électrotechnique|Workers in the domains of electricity, mechanics and electrical engineering
-Name=P27_VS_75
-Value=7501;Mécaniciens et ajusteurs d’appareils électriques|Mechanics and fitters of electric appliances
-Value=7502;Mécaniciens et ajusteurs d’appareils électroniques|Mechanics and  fitters of electronic appliances
-Value=7503;Monteurs et réparateurs d’installations télégraphiques et téléphoniques|Fitters and repairers of telegraphic and telephone equipment
-Value=7504;Monteurs et réparateurs de lignes électriques|Fitters and repairers of electric lines
-
-[ValueSet]
-Label=Métiers de l’industrie de l’alimentation|Food indstry professions
-Name=P27_VS_76
-Value=7601;Boulangers / Pâtissiers|Bakers/Pastrycooks
-Value=7602;Confiseurs|Confectioners
-Value=7603;Charcutiers|Pork butchers
-Value=7604;Laitiers|Milkmen/milkwomen
-Value=7605;Poissonniers|Fishmongers
-Value=7606;Bouchers|Butchers
-
-[ValueSet]
-Label=Métiers et ouvriers de l’industrie du bois|Professions and workers in the wood industry
-Name=P27_VS_77
-Value=7701;Menuisiers|Carpenters
-Value=7702;Ebénistes|Cabinetmaker
-
-[ValueSet]
-Label=Ouvriers de l’industrie de l’habillement et autres métiers de l’industrie|Workers in the clothing industry and other industrial professions
-Name=P27_VS_78
-Value=7801;Couturiers|Dressmakers
-Value=7802;Brodeurs|Embroiderers
-Value=7803;Tailleurs|Tailors
-Value=7804;Chapeliers|Hatter
-Value=7805;Artisans et ouvriers de la chaussure et assimilés|Craftsmen and workers in the shoe industry, as well as similar occupations
-Value=7806;Teinturiers|Dyers
-
-[ValueSet]
-Label=Personnel de la sécurité nationale|National security staff
-Name=P27_VS_81
-Value=8101;Commissaire de Police|Police superintendent
-Value=8102;Officier de Police|Assistant police superindent
-Value=8103;Inspecteur de Police|Police inspector
-Value=8104;Gardien de la Paix|Constable
-
-[ValueSet]
-Label=Personnel de la gendarmerie et des armées|Gendarmerie and army staff
-Name=P27_VS_82
-Value=8201;Officiers généraux|Generals
-Value=8202;Officiers supérieurs|Senior military officers
-Value=8203;Officiers subalternes|Subalterns
-Value=8204;Sous officiers|Non-commissionned officers
-Value=8205;Militaire du rang|Soldiers of the rank and file
-
-[ValueSet]
-Label=Personnel de l’administration pénitentiaire|Penitentiary administration staff
-Name=P27_VS_83
-Value=8301;Cadres des généraux|Generals (Penitentiary administration)
-Value=8302;Cadre des administrateurs de Prison|Prison administrators
-Value=8303;Intendant de Prison|Superintendent of prisons
-Value=8304;Gardien chef de Prison|Chief warder
-Value=8305;Gardien de Prison|Warder
+Label=Qualification
+Name=P27_VS_ALL
+Link=77574408
+Value=1101;Exploitants agricoles
+Value=1102;Ouvriers agricoles
+Value=1201;Eleveurs de bovins
+Value=1202;Eleveurs de caprins et ovins
+Value=1203;Eleveurs de porcins
+Value=1204;Eleveurs de volailles et des oiseaux
+Value=1205;Autres éleveurs (apiculteurs, aviculteurs, aulacodiculteurs, etc.)
+Value=1206;Bergers et autres ouvriers de l’élevage
+Value=1301;Pécheurs de la pêche artisanale
+Value=1302;Pécheurs de la pêche industrielle
+Value=1303;Aquaculteurs
+Value=1304;Ouvriers de la pêche et de l’aquaculture
+Value=1401;Exploitants forestiers
+Value=1402;Exploitant des produits forestiers non ligneux, les cueilleurs et assimilés
+Value=1501;Chasseurs/collecteurs et assimilés (non compris cueilleurs de vin)
+Value=1502;guides de chasses, pisteurs,…
+Value=1503;Taxidermiste ou empailleur
+Value=1504;Autres professions fauniques non comprises ailleurs (Captureurs)
+Value=2101;Membres de l'Exécutif
+Value=2102;Membres des Corps Législatifs (Parlement : Sénat, Assemblée Nationale)
+Value=2103;Directeurs Généraux et Cadres Supérieurs de l'Administration Publique (y compris ceux des EPA)
+Value=2104;Chefs traditionnels
+Value=2201;Dirigeants et cadres supérieurs  de parti politique
+Value=2202;Dirigeants et cadres supérieurs d’organisation professionnelle de travailleurs
+Value=2203;Dirigeants et cadres supérieurs d’organisation professionnelle des employeurs
+Value=2204;Dirigeants et cadres supérieurs d'organisation humanitaire, d’ONG et d'associations
+Value=2205;Dirigeants et cadres supérieurs d'organismes spécialisés non classés ailleurs
+Value=2301;Présidents Directeurs Généraux, Directeurs Généraux, Directeurs et Cadres de Direction des Affaires Générales (Administratives, Financières ; Ressources  Humaines)
+Value=2302;Directeurs et Cadres de Direction des services de vente, commercialisation et développement
+Value=2303;Directeurs et Cadres de Direction, Agriculture, Pisciculture
+Value=2304;Directeurs et Cadres de Direction, Industrie Manufacturière, Mines et Distribution
+Value=2305;Directeurs et Cadres de Direction des services spécialisés non compris ailleurs
+Value=2401;Dirigeants et Gérants des petites entreprises dans l'agriculture, la chasse et la pêche
+Value=2402;Dirigeants et Gérants des petites entreprises dans les industries manufacturières
+Value=2403;Dirigeants et Gérants des petites entreprises dans les travaux publics
+Value=2404;Dirigeants et Gérants des petites entreprises dans le commerce de gros et de détail
+Value=2405;Dirigeants et Gérants des petites entreprises dans la restauration et l'hôtellerie
+Value=2406;Dirigeants et Gérants des petites entreprises dans les transports, l'entreposage et les communications
+Value=2407;Dirigeants et Gérants des petites entreprises d'intermédiation et de services aux entreprises
+Value=2408;Dirigeants et Gérants des petites entreprises de services de soins personnels, de nettoyage et de services similaires
+Value=2409;Dirigeants et Gérants des Petites Entreprises non compris ailleurs
+Value=3101;Physiciens, chimistes et assimilés (sauf ingénieur de l’électrotechnique cf. 3104)
+Value=3102;Mathématiciens, actuaires, statisticiens et démographes
+Value=3103;Spécialistes des sciences de la vie,  de la terre et assimilés (sauf spécialistes de la santé)
+Value=3104;Ingénieurs de l'électrotechnique et des télécommunications
+Value=3105;Architectes, urbanistes, géomètres, ingénieur de Génie civil et assimilés
+Value=3106;Autres personnels spécialistes des sciences et techniques
+Value=3201;Médecins et assimilés
+Value=3202;Cadres infirmiers et sages-femmes
+Value=3203;Ingénieurs et techniciens médicaux-sanitaires
+Value=3204;Spécialistes des médecines traditionnelles et des médecines complémentaires
+Value=3205;Praticiens paramédicaux
+Value=3206;Vétérinaires
+Value=3207;Autres spécialistes des professions de la santé
+Value=3301;Professeurs d'université et d'établissements d'enseignement supérieur
+Value=3302;Professeurs, enseignement secondaire technique et professionnel
+Value=3303;Professeurs, enseignement secondaire général et normal
+Value=3304;Autres spécialistes de l'enseignement
+Value=3401;Spécialistes en finances
+Value=3402;Spécialistes des fonctions administratives
+Value=3403;Spécialistes des ventes, de la commercialisation et des relations publiques
+Value=3404;Spécialistes en gestion des projets
+Value=3405;Autres spécialistes en administration des entreprises
+Value=3501;Concepteurs et Analystes de logiciels et de multimédia
+Value=3502;Spécialistes des bases de données et des réseaux d'ordinateurs
+Value=3503;Autres spécialistes des technologies de l’information et des communications
+Value=3601;Juristes
+Value=3602;Archivistes, bibliothécaires, documentalistes et assimilés
+Value=3603;Spécialistes des sciences sociales et du clergé
+Value=3604;Auteurs, journalistes et linguistes
+Value=3605;Artistes créateurs et exécutants
+Value=3701;Conseillers d’orientation
+Value=3702;Conseillers et animateurs de la jeunesse
+Value=3801;Logisticien
+Value=3802;Spécialistes des services postaux
+Value=4101;Professions intermédiaires des sciences physiques et techniques
+Value=4102;Contremaitres, mines, industries manufacturières et bâtiment
+Value=4103;Conducteurs, techniciens et contrôleurs de processus industriels
+Value=4104;Techniciens et travailleurs assimilés des sciences de la vie, de la terre et assimilés
+Value=4105;Contrôleurs et techniciens des moyens de transport maritime et aérien
+Value=4106;Contrôleurs et techniciens des moyens de transport terrestre
+Value=4201;Techniciens de la médecine et de la pharmacie
+Value=4202;Personnel infirmier, aide-soignant et sages-femmes
+Value=4203;Praticiens des médecines traditionnelles et des médecines complémentaires
+Value=4204;Techniciens et assistants vétérinaires
+Value=4205;Autres professions intermédiaires de la santé
+Value=4206;Professions intermédiaires de l'enseignement primaire et pré-primaire
+Value=4207;Autres personnels d'enseignement, personnels d'éducation
+Value=4208;Formation continue
+Value=4209;Education sportive, sport professionnel
+Value=4210;Documentation, patrimoine
+Value=4301;Professions intermédiaires de la finance et des mathématiques
+Value=4302;Agents de vente et d'achat, courtiers
+Value=4303;Agents de services commerciaux
+Value=4304;Secrétaires d'administration et secrétaires spécialisés
+Value=4305;Professions intermédiaires de l'application de la loi et assimilées
+Value=4401;Professions intermédiaires des services juridiques, des services sociaux et des religions
+Value=4402;Travailleurs du secteur des sports et des activités de remise en forme
+Value=4403;Professions intermédiaires de la culture, de la création artistique et des activités culinaires
+Value=4501;Techniciens, opérations et soutien aux utilisateurs des technologies de l'information et des communications
+Value=4502;Techniciens des télécommunications et de la radio diffusion
+Value=4601;Personnel de rang de la douane
+Value=4602;Personnel de rang des eaux et forêts
+Value=5101;Employés de bureau, fonctions générales
+Value=5102;Secrétaires (fonctions générales)
+Value=5103;Opérateurs sur clavier
+Value=5201;Guichetiers, encaisseurs et assimilés
+Value=5202;Employés chargés d'informer la clientèle/usagers
+Value=5301;Employés des services comptables et financiers
+Value=5302;Employés d'approvisionnement et de classification spatio-temporelle
+Value=5303;Employés du service de transports
+Value=5304;Manœuvres des transports et de l’entreposage
+Value=5401;Autres employés de type administratif
+Value=6101;Agents d'accompagnement et assimilés
+Value=6102;Cuisiniers, aides de cuisine et assimilés
+Value=6103;Serveurs et barmen
+Value=6104;Coiffeurs, esthéticiens et assimilés
+Value=6105;Gouvernantes et concierges
+Value=6106;Gardes d'enfants et aides-enseignants
+Value=6107;Aides-personnes âgées
+Value=6108;Aides de ménage et agents d'entretien
+Value=6109;Laveurs de véhicules et de vitres, laveurs de linge et autres nettoyeurs manues
+Value=6110;Autres personnels des services directs aux particuliers
+Value=6201;Vendeurs sur les marchés et vendeurs ambulants de comestibles
+Value=6202;Commerçants,  vendeurs en magasin
+Value=6203;Commerçants sur Call box des produits de téléphonie
+Value=6204;Autres vendeurs et autres professions auxiliaires à la vente
+Value=6301;Vigiles et agents de sécurité privée
+Value=6302;Autres personnels civils de protection et de sécurité privée
+Value=6401;Conducteurs d'installations d'exploitation minière et d'extraction des minéraux
+Value=6402;Conducteurs d'installations de transformation et de traitement superficiel des métaux
+Value=6403;Conducteurs d'installations et de machines pour la fabrication des produits chimiques et photographiques
+Value=6404;Conducteurs de machines pour la fabrication de produits en caoutchouc, en matières plastiques et en papeterie
+Value=6405;Conducteurs de machines pour la fabrication de produits textiles et d'articles en fourrure et en cuir
+Value=6406;Conducteurs de machines pour la fabrication de denrées alimentaires et de produits connexes
+Value=6407;Conducteurs d'installations pour la fabrication du papier et pour le travail du bois
+Value=6408;Autres conducteurs de machines et d'installations fixes
+Value=6500;Ouvriers de l'assemblage
+Value=6601;Conducteurs de locomotives et assimilés
+Value=6602;Conducteurs de motocycles
+Value=6603;Chauffeurs de taxi et conducteurs d'automobiles et de camionnettes
+Value=6604;Conducteurs d'autobus et de tramways
+Value=6605;Conducteurs de poids lourds et de camions
+Value=6606;Conducteurs de matériels et engins mobiles
+Value=6607;Matelots de pont et assimilés
+Value=7101;Artisans et ouvriers du textile
+Value=7102;Artisans et ouvriers du bois
+Value=7103;Artisans et ouvriers de la vannerie
+Value=7104;Artisans et ouvrier du plastique
+Value=7105;Artisans et ouvriers de la céramique et poterie
+Value=7106;Artisans et ouvriers du cuir (cordonnier, maroquinier, réparateur de chaussure/sac)
+Value=7107;Artisans et ouvriers de l’alimentation, des boissons et du tabac (y.c. cueilleurs de vin, producteur de foléré)
+Value=7108;Métiers de creusage (creuseurs de puits, fosses…)
+Value=7201;Maçons
+Value=7202;Charpentiers
+Value=7203;Tôliers (poseurs de tôles et de tuiles)
+Value=7204;Peintres en bâtiment
+Value=7205;Ferrailleurs
+Value=7206;Marbrier/Carriers
+Value=7207;Vitrier
+Value=7208;Carreleur
+Value=7209;Fendeurs de pierre/ Tailleurs de pierre
+Value=7210;Plombiers en bâtiment
+Value=7211;Staffeurs/Plâtrier
+Value=7212;Métiers du bâtiment et assimilés non classés ailleurs
+Value=7301;Soudeur/cuviste
+Value=7302;Mouleur fondeur
+Value=7303;Tôlier – Chaudronnier
+Value=7304;Monteur de charpentes métalliques
+Value=7305;Forgerons /outilleurs
+Value=7306;Mécaniciens/ réparateurs des machines et d’engins
+Value=7401;Relieurs
+Value=7402;Compositeurs typographes (Monteurs)
+Value=7403;Stéréotypeurs
+Value=7404;Imprimeurs
+Value=7405;Graveurs
+Value=7406;Sérigraphes
+Value=7501;Mécaniciens et ajusteurs d’appareils électriques
+Value=7502;Mécaniciens et ajusteurs d’appareils électroniques
+Value=7503;Monteurs et réparateurs d’installations télégraphiques et téléphoniques
+Value=7504;Monteurs et réparateurs de lignes électriques
+Value=7601;Boulangers / Pâtissiers
+Value=7602;Confiseurs
+Value=7603;Charcutiers
+Value=7604;Laitiers
+Value=7605;Poissonniers
+Value=7606;Bouchers
+Value=7701;Menuisiers
+Value=7702;Ebénistes
+Value=7801;Couturiers
+Value=7802;Brodeurs
+Value=7803;Tailleurs
+Value=7804;Chapeliers
+Value=7805;Artisans et ouvriers de la chaussure et assimilés
+Value=7806;Teinturiers
+Value=8101;Commissaire de Police
+Value=8102;Officier de Police
+Value=8103;Inspecteur de Police
+Value=8104;Gardien de la Paix
+Value=8201;Officiers généraux
+Value=8202;Officiers supérieurs
+Value=8203;Officiers subalternes
+Value=8204;Sous officiers
+Value=8205;Militaire du rang
+Value=8301;Cadres des généraux
+Value=8302;Cadre des administrateurs de Prison
+Value=8303;Intendant de Prison
+Value=8304;Gardien chef de Prison
+Value=8305;Gardien de Prison
 
 [Item]
 Label=Situation d'activité|State of activity
@@ -4034,7 +3973,7 @@ Len=2
 ZeroFill=Yes
 
 [ValueSet]
-Label=AGRICULTEURS ET OUVRIERS DE L’AGRICULTURE, DE L’ELEVAGE, DE LA PECHE ET DES AUTRES ACTIVITES LIEES A LA FORET 
+Label=AGRICULTEURS ET OUVRIERS DE L’AGRICULTURE, DE L’ELEVAGE, DE LA PECHE ET DES AUTRES ACTIVITES LIEES A LA FORET
 Name=P29B_VS_1
 Value=1;AGRICULTEURS ET OUVRIERS DE L’AGRICULTURE, DE L’ELEVAGE, DE LA PECHE ET DES AUTRES ACTIVITES LIEES A LA FORET
 Value=11;Planteurs /cultivateurs et ouvriers des cultures
@@ -4116,6 +4055,11 @@ Name=P29
 Start=158
 Len=4
 ZeroFill=Yes
+
+[ValueSet]
+Label=Emploi exercé
+Name=P29_VS_ALL
+Link=77574408
 
 [ValueSet]
 Label=Planteurs /cultivateurs et ouvriers des cultures|Farmers and workers in the farming sector
@@ -4501,219 +4445,6 @@ Value=8302;Cadre des administrateurs de Prison|Prison administrators
 Value=8303;Intendant de Prison|Superintendent of prisons
 Value=8304;Gardien chef de Prison|Chief warder
 Value=8305;Gardien de Prison|Warder
-
-[ValueSet]
-Label=Emploi exercé
-Name=P29_VS_ALL
-Value=1101;Exploitants agricoles
-Value=1102;Ouvriers agricoles
-Value=1201;Eleveurs de bovins
-Value=1202;Eleveurs de caprins et ovins
-Value=1203;Eleveurs de porcins
-Value=1204;Eleveurs de volailles et des oiseaux
-Value=1205;Autres éleveurs (apiculteurs, aviculteurs, aulacodiculteurs, etc.)
-Value=1206;Bergers et autres ouvriers de l’élevage
-Value=1301;Pécheurs de la pêche artisanale
-Value=1302;Pécheurs de la pêche industrielle
-Value=1303;Aquaculteurs
-Value=1304;Ouvriers de la pêche et de l’aquaculture
-Value=1401;Exploitants forestiers
-Value=1402;Exploitant des produits forestiers non ligneux, les cueilleurs et assimilés
-Value=1501;Chasseurs/collecteurs et assimilés (non compris cueilleurs de vin)
-Value=1502;guides de chasses, pisteurs,…
-Value=1503;Taxidermiste ou empailleur
-Value=1504;Autres professions fauniques non comprises ailleurs (Captureurs)
-Value=2101;Membres de l'Exécutif
-Value=2102;Membres des Corps Législatifs (Parlement : Sénat, Assemblée Nationale)
-Value=2103;Directeurs Généraux et Cadres Supérieurs de l'Administration Publique (y compris ceux des EPA)
-Value=2104;Chefs traditionnels
-Value=2201;Dirigeants et cadres supérieurs  de parti politique
-Value=2202;Dirigeants et cadres supérieurs d’organisation professionnelle de travailleurs
-Value=2203;Dirigeants et cadres supérieurs d’organisation professionnelle des employeurs
-Value=2204;Dirigeants et cadres supérieurs d'organisation humanitaire, d’ONG et d'associations
-Value=2205;Dirigeants et cadres supérieurs d'organismes spécialisés non classés ailleurs
-Value=2301;Présidents Directeurs Généraux, Directeurs Généraux, Directeurs et Cadres de Direction des Affaires Générales (Administratives, Financières ; Ressources  Humaines)
-Value=2302;Directeurs et Cadres de Direction des services de vente, commercialisation et développement
-Value=2303;Directeurs et Cadres de Direction, Agriculture, Pisciculture
-Value=2304;Directeurs et Cadres de Direction, Industrie Manufacturière, Mines et Distribution
-Value=2305;Directeurs et Cadres de Direction des services spécialisés non compris ailleurs
-Value=2401;Dirigeants et Gérants des petites entreprises dans l'agriculture, la chasse et la pêche
-Value=2402;Dirigeants et Gérants des petites entreprises dans les industries manufacturières
-Value=2403;Dirigeants et Gérants des petites entreprises dans les travaux publics
-Value=2404;Dirigeants et Gérants des petites entreprises dans le commerce de gros et de détail
-Value=2405;Dirigeants et Gérants des petites entreprises dans la restauration et l'hôtellerie
-Value=2406;Dirigeants et Gérants des petites entreprises dans les transports, l'entreposage et les communications
-Value=2407;Dirigeants et Gérants des petites entreprises d'intermédiation et de services aux entreprises
-Value=2408;Dirigeants et Gérants des petites entreprises de services de soins personnels, de nettoyage et de services similaires
-Value=2409;Dirigeants et Gérants des Petites Entreprises non compris ailleurs
-Value=3101;Physiciens, chimistes et assimilés (sauf ingénieur de l’électrotechnique cf. 3104)
-Value=3102;Mathématiciens, actuaires, statisticiens et démographes
-Value=3103;Spécialistes des sciences de la vie,  de la terre et assimilés (sauf spécialistes de la santé)
-Value=3104;Ingénieurs de l'électrotechnique et des télécommunications
-Value=3105;Architectes, urbanistes, géomètres, ingénieur de Génie civil et assimilés
-Value=3106;Autres personnels spécialistes des sciences et techniques
-Value=3201;Médecins et assimilés
-Value=3202;Cadres infirmiers et sages-femmes
-Value=3203;Ingénieurs et techniciens médicaux-sanitaires
-Value=3204;Spécialistes des médecines traditionnelles et des médecines complémentaires
-Value=3205;Praticiens paramédicaux
-Value=3206;Vétérinaires
-Value=3207;Autres spécialistes des professions de la santé
-Value=3301;Professeurs d'université et d'établissements d'enseignement supérieur
-Value=3302;Professeurs, enseignement secondaire technique et professionnel
-Value=3303;Professeurs, enseignement secondaire général et normal
-Value=3304;Autres spécialistes de l'enseignement
-Value=3401;Spécialistes en finances
-Value=3402;Spécialistes des fonctions administratives
-Value=3403;Spécialistes des ventes, de la commercialisation et des relations publiques
-Value=3404;Spécialistes en gestion des projets
-Value=3405;Autres spécialistes en administration des entreprises
-Value=3501;Concepteurs et Analystes de logiciels et de multimédia
-Value=3502;Spécialistes des bases de données et des réseaux d'ordinateurs
-Value=3503;Autres spécialistes des technologies de l’information et des communications
-Value=3601;Juristes
-Value=3602;Archivistes, bibliothécaires, documentalistes et assimilés
-Value=3603;Spécialistes des sciences sociales et du clergé
-Value=3604;Auteurs, journalistes et linguistes
-Value=3605;Artistes créateurs et exécutants
-Value=3701;Conseillers d’orientation
-Value=3702;Conseillers et animateurs de la jeunesse
-Value=3801;Logisticien
-Value=3802;Spécialistes des services postaux
-Value=4101;Professions intermédiaires des sciences physiques et techniques
-Value=4102;Contremaitres, mines, industries manufacturières et bâtiment
-Value=4103;Conducteurs, techniciens et contrôleurs de processus industriels
-Value=4104;Techniciens et travailleurs assimilés des sciences de la vie, de la terre et assimilés
-Value=4105;Contrôleurs et techniciens des moyens de transport maritime et aérien
-Value=4106;Contrôleurs et techniciens des moyens de transport terrestre
-Value=4201;Techniciens de la médecine et de la pharmacie
-Value=4202;Personnel infirmier, aide-soignant et sages-femmes
-Value=4203;Praticiens des médecines traditionnelles et des médecines complémentaires
-Value=4204;Techniciens et assistants vétérinaires
-Value=4205;Autres professions intermédiaires de la santé
-Value=4206;Professions intermédiaires de l'enseignement primaire et pré-primaire
-Value=4207;Autres personnels d'enseignement, personnels d'éducation
-Value=4208;Formation continue
-Value=4209;Education sportive, sport professionnel
-Value=4210;Documentation, patrimoine
-Value=4301;Professions intermédiaires de la finance et des mathématiques
-Value=4302;Agents de vente et d'achat, courtiers
-Value=4303;Agents de services commerciaux
-Value=4304;Secrétaires d'administration et secrétaires spécialisés
-Value=4305;Professions intermédiaires de l'application de la loi et assimilées
-Value=4401;Professions intermédiaires des services juridiques, des services sociaux et des religions
-Value=4402;Travailleurs du secteur des sports et des activités de remise en forme
-Value=4403;Professions intermédiaires de la culture, de la création artistique et des activités culinaires
-Value=4501;Techniciens, opérations et soutien aux utilisateurs des technologies de l'information et des communications
-Value=4502;Techniciens des télécommunications et de la radio diffusion
-Value=4601;Personnel de rang de la douane
-Value=4602;Personnel de rang des eaux et forêts
-Value=5101;Employés de bureau, fonctions générales
-Value=5102;Secrétaires (fonctions générales)
-Value=5103;Opérateurs sur clavier
-Value=5201;Guichetiers, encaisseurs et assimilés
-Value=5202;Employés chargés d'informer la clientèle/usagers
-Value=5301;Employés des services comptables et financiers
-Value=5302;Employés d'approvisionnement et de classification spatio-temporelle
-Value=5303;Employés du service de transports
-Value=5304;Manœuvres des transports et de l’entreposage
-Value=5401;Autres employés de type administratif
-Value=6101;Agents d'accompagnement et assimilés
-Value=6102;Cuisiniers, aides de cuisine et assimilés
-Value=6103;Serveurs et barmen
-Value=6104;Coiffeurs, esthéticiens et assimilés
-Value=6105;Gouvernantes et concierges
-Value=6106;Gardes d'enfants et aides-enseignants
-Value=6107;Aides-personnes âgées
-Value=6108;Aides de ménage et agents d'entretien
-Value=6109;Laveurs de véhicules et de vitres, laveurs de linge et autres nettoyeurs manues
-Value=6110;Autres personnels des services directs aux particuliers
-Value=6201;Vendeurs sur les marchés et vendeurs ambulants de comestibles
-Value=6202;Commerçants,  vendeurs en magasin
-Value=6203;Commerçants sur Call box des produits de téléphonie
-Value=6204;Autres vendeurs et autres professions auxiliaires à la vente
-Value=6301;Vigiles et agents de sécurité privée
-Value=6302;Autres personnels civils de protection et de sécurité privée
-Value=6401;Conducteurs d'installations d'exploitation minière et d'extraction des minéraux
-Value=6402;Conducteurs d'installations de transformation et de traitement superficiel des métaux
-Value=6403;Conducteurs d'installations et de machines pour la fabrication des produits chimiques et photographiques
-Value=6404;Conducteurs de machines pour la fabrication de produits en caoutchouc, en matières plastiques et en papeterie
-Value=6405;Conducteurs de machines pour la fabrication de produits textiles et d'articles en fourrure et en cuir
-Value=6406;Conducteurs de machines pour la fabrication de denrées alimentaires et de produits connexes
-Value=6407;Conducteurs d'installations pour la fabrication du papier et pour le travail du bois
-Value=6408;Autres conducteurs de machines et d'installations fixes
-Value=6500;Ouvriers de l'assemblage
-Value=6601;Conducteurs de locomotives et assimilés
-Value=6602;Conducteurs de motocycles
-Value=6603;Chauffeurs de taxi et conducteurs d'automobiles et de camionnettes
-Value=6604;Conducteurs d'autobus et de tramways
-Value=6605;Conducteurs de poids lourds et de camions
-Value=6606;Conducteurs de matériels et engins mobiles
-Value=6607;Matelots de pont et assimilés
-Value=7101;Artisans et ouvriers du textile
-Value=7102;Artisans et ouvriers du bois
-Value=7103;Artisans et ouvriers de la vannerie
-Value=7104;Artisans et ouvrier du plastique
-Value=7105;Artisans et ouvriers de la céramique et poterie
-Value=7106;Artisans et ouvriers du cuir (cordonnier, maroquinier, réparateur de chaussure/sac)
-Value=7107;Artisans et ouvriers de l’alimentation, des boissons et du tabac (y.c. cueilleurs de vin, producteur de foléré)
-Value=7108;Métiers de creusage (creuseurs de puits, fosses…)
-Value=7201;Maçons
-Value=7202;Charpentiers
-Value=7203;Tôliers (poseurs de tôles et de tuiles)
-Value=7204;Peintres en bâtiment
-Value=7205;Ferrailleurs
-Value=7206;Marbrier/Carriers
-Value=7207;Vitrier
-Value=7208;Carreleur
-Value=7209;Fendeurs de pierre/ Tailleurs de pierre
-Value=7210;Plombiers en bâtiment
-Value=7211;Staffeurs/Plâtrier
-Value=7212;Métiers du bâtiment et assimilés non classés ailleurs
-Value=7301;Soudeur/cuviste
-Value=7302;Mouleur fondeur
-Value=7303;Tôlier – Chaudronnier
-Value=7304;Monteur de charpentes métalliques
-Value=7305;Forgerons /outilleurs
-Value=7306;Mécaniciens/ réparateurs des machines et d’engins
-Value=7401;Relieurs
-Value=7402;Compositeurs typographes (Monteurs)
-Value=7403;Stéréotypeurs
-Value=7404;Imprimeurs
-Value=7405;Graveurs
-Value=7406;Sérigraphes
-Value=7501;Mécaniciens et ajusteurs d’appareils électriques
-Value=7502;Mécaniciens et ajusteurs d’appareils électroniques
-Value=7503;Monteurs et réparateurs d’installations télégraphiques et téléphoniques
-Value=7504;Monteurs et réparateurs de lignes électriques
-Value=7601;Boulangers / Pâtissiers
-Value=7602;Confiseurs
-Value=7603;Charcutiers
-Value=7604;Laitiers
-Value=7605;Poissonniers
-Value=7606;Bouchers
-Value=7701;Menuisiers
-Value=7702;Ebénistes
-Value=7801;Couturiers
-Value=7802;Brodeurs
-Value=7803;Tailleurs
-Value=7804;Chapeliers
-Value=7805;Artisans et ouvriers de la chaussure et assimilés
-Value=7806;Teinturiers
-Value=8101;Commissaire de Police
-Value=8102;Officier de Police
-Value=8103;Inspecteur de Police
-Value=8104;Gardien de la Paix
-Value=8201;Officiers généraux
-Value=8202;Officiers supérieurs
-Value=8203;Officiers subalternes
-Value=8204;Sous officiers
-Value=8205;Militaire du rang
-Value=8301;Cadres des généraux
-Value=8302;Cadre des administrateurs de Prison
-Value=8303;Intendant de Prison
-Value=8304;Gardien chef de Prison
-Value=8305;Gardien de Prison
 
 [Item]
 Label=Statut dans l'emploi|Employment status
